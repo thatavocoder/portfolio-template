@@ -18,7 +18,7 @@ const About = () => {
     "Git",
   ]
   return (
-    <div id="about" className='min-h-screen flex items-center'>
+    <div id="about" className='min-h-screen max-w-[1440px] m-auto flex items-center'>
       <div className='lg:flex items-center lg:min-h-screen py-12 lg:pt-10'>
         <p className='text-primary-500 text-6xl lg:text-6xl xl:text-7xl font-title h-max w-full text-center xl:w-3/5 lg:-rotate-90'>About Me</p>
         <div className='flex flex-col mt-8 lg:mt-0'>
@@ -33,13 +33,13 @@ const About = () => {
           </div>
           <div className='flex flex-col items-center justify-center lg:w-10/12 xl:w-9/12 ml-4 md:ml-10 xl:ml-24 p-2 mt-8'>
             <p className='text-secondary-500 text-3xl font-title w-full'>Skills</p>
-            <p className='text-white-500 font-body lg:text-sm xl:text-lg w-full mt-4 !leading-10 xl:leading-[3rem]'>
+            <p className='text-white-500 font-body lg:text-sm xl:text-lg w-full mt-4 !leading-10 xl:!leading-[3rem]'>
               {
                 skills.map((skill, index) => (
-                  <>
-                    <span key={index} className='bg-black-400 p-2'>{skill}</span>
+                  <span key={index}>
+                    <span className='bg-black-400 p-2'>{skill}</span>
                     <span> </span>
-                  </>
+                  </span>
                 ))
               }
             </p>
