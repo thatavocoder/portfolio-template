@@ -12,3 +12,11 @@ html {
 .hero-radialbg {
   background-image: radial-gradient(#91a117, #231f20 50%);
 }
+
+.project-scrollbar {
+  padding: 1em 0;
+}
+
+.project-scrollbar::-webkit-scrollbar {
+  display: none;
+}
