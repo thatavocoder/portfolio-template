@@ -8,8 +8,8 @@ const Experience = () => (
       <div className='grid grid-cols-1 gap-4 mt-4'>
         {
           EXPERIENCE.map((work, index) => (
-            <>
-              <div key={index} className='p-3 bg-black-400/20 mx-4 rounded shadow-md'>
+            <div key={index}>
+              <div className='p-3 bg-black-400/20 mx-4 rounded shadow-md'>
                 <p className='font-title text-primary-500 text-left text-2xl'>{work.title}</p>
                 <p className='font-body text-secondary-500 text-left text-sm'>{work.company} &#x2022; {work.duration}</p>
                 <ul className='list-disc list-outside mt-2 ml-4'>
@@ -19,7 +19,7 @@ const Experience = () => (
                 </ul>
               </div>
               <div className='h-6 bg-primary-500 w-0.5 m-auto last-of-type:hidden'></div>
-            </>
+            </div>
           ))
         }
       </div>
