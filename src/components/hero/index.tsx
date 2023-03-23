@@ -12,10 +12,10 @@ const Hero = () => (
           <p className='text-primary-500 xsm:text-xl md:text-3xl font-logo'>AB</p>
         </div>
         <div>
-          <a href='#home' className='text-primary-500 xsm:text-lg md:text-xl font-title ml-4'>Home</a>
-          <a href='#about' className='text-primary-500 xsm:text-lg md:text-xl font-title ml-4'>About</a>
-          <a href='#work' className='text-primary-500 xsm:text-lg md:text-xl font-title ml-4'>Work</a>
-          <a href='#contact' className='text-primary-500 xsm:text-lg md:text-xl font-title ml-4'>Contact</a>
+          <a href='#home' className='text-secondary-500 xsm:text-lg md:text-xl font-title ml-4'>Home</a>
+          <a href='#about' className='text-secondary-500 xsm:text-lg md:text-xl font-title ml-4'>About</a>
+          <a href='#work' className='text-secondary-500 xsm:text-lg md:text-xl font-title ml-4'>Work</a>
+          <a href='#contact' className='text-secondary-500 xsm:text-lg md:text-xl font-title ml-4'>Contact</a>
         </div>
         <div className='flex items-center'>
           <FaGithub className='text-primary-500 xsm:text-lg md:text-2xl ml-4' />

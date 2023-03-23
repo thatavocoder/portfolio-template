@@ -7,7 +7,7 @@ import { PROJECTS } from '../constants'
 const Projects = () => {
   return (
     <div>
-      <p className='text-primary-500 font-title text-4xl md:text-5xl text-center mt-12'>Projects</p>
+      <p className='text-primary-500 font-title text-4xl md:text-5xl text-center mt-8'>Projects</p>
       <div className='mt-6 flex overflow-auto whitespace-nowrap ml-4 md:ml-8 project-scrollbar'>
         {
           PROJECTS.map((project, index) => (
