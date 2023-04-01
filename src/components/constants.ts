@@ -36,28 +36,32 @@ export const EXPERIENCE = [
     title: "SDE 2",
     company: "Company 1",
     duration: "2021 - Present",
-    description1: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-    description2: "Nisi ut quod officiis doloremque.",
-    description3: "Nisi ut quod officiis doloremque laborum repellat.",
+    description:[
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+      "Nisi ut quod officiis doloremque.",
+      "Nisi ut quod officiis doloremque laborum repellat."
+    ]
   },
   {
     title: "SDE 1",
     company: "Company 2",
     duration: "2018 - 2021",
-    description1:
+    description : [
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi ut quod officiis doloremque.",
-    description2: "Nisi ut quod officiis doloremque laborum repellat.",
-    description3:
-      "Nisi ut quod officiis doloremque laborum repellat a aspernatur perferendis maxime accusantium.",
+      "Nisi ut quod officiis doloremque laborum repellat.",
+      "Nisi ut quod officiis doloremque laborum repellat a aspernatur perferendis maxime accusantium."
+    ]
   },
   {
     title: "Software Development Intern",
     company: "Company 3",
     duration: "2016 - 2018",
-    description1:
+    description:[
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi ut quod officiis doloremque laborum repellat a aspernatur perferendis maxime accusantium.",
-    description2: "Nisi ut quod officiis doloremque laborum repellat.",
-    description3: "Nisi ut quod officiis doloremque.",
+      "Nisi ut quod officiis doloremque laborum repellat.",
+      "Nisi ut quod officiis doloremque.",
+      "Nisi ut quod officiis doloremque laborum repellat a aspernatur perferendis maxime accusantium."
+    ]
   },
 ];
 
