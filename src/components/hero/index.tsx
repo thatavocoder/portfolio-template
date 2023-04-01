@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { MdEmail, MdKeyboardDoubleArrowDown } from "react-icons/md";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaFileAlt, FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Hero = () => (
   <div className='min-h-screen relative' id="home">
@@ -18,9 +18,10 @@ const Hero = () => (
           <a href='#contact' className='text-secondary-500 xsm:text-lg md:text-xl font-title ml-4'>Contact</a>
         </div>
         <div className='flex items-center'>
-          <FaGithub className='text-primary-500 xsm:text-lg md:text-2xl ml-4' />
-          <FaLinkedinIn className='text-primary-500 xsm:text-lg md:text-2xl ml-4' />
-          <MdEmail className='text-primary-500 xsm:text-lg md:text-2xl ml-4' />
+          <a href='/resume/aashka.pdf' download><FaFileAlt className='text-primary-500 xsm:text-lg md:text-2xl ml-4' /></a>
+          <a href=''><FaGithub className='text-primary-500 xsm:text-lg md:text-2xl ml-4' /></a>
+          <a href=''><FaLinkedinIn className='text-primary-500 xsm:text-lg md:text-2xl ml-4' /></a>
+          <a href=''><MdEmail className='text-primary-500 xsm:text-lg md:text-2xl ml-4' /></a>
         </div>
       </div>
       <div className='min-h-screen flex flex-col items-center justify-center'>
