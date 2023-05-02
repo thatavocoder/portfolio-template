@@ -12,7 +12,7 @@ const Projects = () => {
         {
           PROJECTS.map((project, index) => (
             <div key={index} className='p-3 md:mx-4'>
-              <Image src={`/${project.image}`} width={400} height={100} alt="" />
+              <Image src={`/${project.image}`} width={400} height={100} alt="" className='h-60' />
               <p className='font-title text-primary-500 text-left text-2xl mt-2'>{project.title}</p>
               <p className='font-body text-secondary-500 text-left text-sm'>{project.duration}</p>
               <div className='w-80 md:w-96 whitespace-normal'>
